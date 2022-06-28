@@ -61,7 +61,14 @@
         position: absolute;
         font-size: 20px;
       }
-
+      h4 {
+        color: black;
+        margin-top: 150px;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: absolute;
+        font-size: 20px;
+      }
       img {
         width: 100%;
         height: 100%;
@@ -70,8 +77,8 @@
       }
 
       &:hover {
-        width: 420px;
-        height: 350px;
+        width: 520px;
+        height: 400px;
         color:rgb(114, 245, 245);
 
         // background-color: $mainColor;

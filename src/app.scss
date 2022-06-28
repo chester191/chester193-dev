@@ -3,7 +3,9 @@
 
     .sections{
         width: 100%;
-        height: calc(100vh - 70px);
+        // height: calc(100vh - 70px);
+        // height: 200%;
+        height: fit-content;
         background-color: lightsalmon;
         position: relative;
         top: 70px;

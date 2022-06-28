@@ -76,23 +76,18 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           
-          <div className="item">
+          <div className="item tooltip">
             <img
               src={d.img}
               alt=""
             />
             <h3>{d.title}</h3>
-            {/* <ReactTooltip
-            id="message"
-            place="top"
-            effect="solid"
-            type="dark"
-            multiline={true}
-          > 
-              <p> test tooltip </p>
-          </ReactTooltip> */}
+            <h4>{d.tooltip}</h4>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
-          
         ))}
         
       </div>

@@ -2,11 +2,13 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: "EeziHealth",
+    tooltip:"web application (POS, \nstock management etc) for pharmacy -- Eezihealth",
     img: "/assets/EeziHealth-screenshot.png"
   },
   {
     id: 2,
     title: "find-me.africa",
+    tooltip: "job hunting and recruitment website based in South Africa",
     img: "/assets/find-me.africa-screenshot.png"
   },
   // {
@@ -17,16 +19,19 @@ export const featuredPortfolio = [
   {
     id: 4,
     title: "Alusa-marketing",
+    tooltip: "web application for telemarking company -- Alusa Marketing",
     img: "/assets/Alusa-marketing-screenshot.png"
   },
   {
     id: 5,
     title: "AtRecruit",
+    tooltip: "web application for job retraining through nelson mandela bay university",
     img: "/assets/AtRecruit-screenshot.png",
   },
   {
     id: 6,
     title: "Ecolinked",
+    tooltip:"Web application for a group of universities in DRC",
     img: "/assets/Ecolinked-screenshot.png"
   },
 ];

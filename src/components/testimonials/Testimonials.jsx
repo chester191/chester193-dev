@@ -95,6 +95,7 @@ export default function Testimonials() {
             <div className="center">
               {d.list}
             </div>
+            <br />
             <div className="center">
               {d.desc}
             </div>
