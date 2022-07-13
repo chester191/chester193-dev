@@ -10,8 +10,12 @@ import Contact from "./components/Contact/Contact.jsx";
 import "./app.scss";
 import { useState } from "react";
 import Menu from "./components/menu/Menu.jsx";
+
 // import Menu from "./components/menu/Menu";
 // import Menu from "./components/men"
+
+
+
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
   return (
@@ -23,6 +27,10 @@ function App() {
             <Portfolio/>
             {/* <Works/> */}
             <Testimonials/>
+            {/* <div style={containerStyles}>
+              <Slider slides={slides} />
+            </div> */}
+
             <Contact/>
           </div>
       </div>
