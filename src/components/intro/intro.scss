@@ -19,8 +19,8 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: grey;
-      border-radius: 50%;
+      // background-color: grey;
+      // border-radius: 50%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
@@ -62,16 +62,26 @@
 
         @include mobile{
           font-size: 40px;
+          margin:0;
+          height: 75px;
         }
       }
       h2 {
         font-size: 35px;
+        @include mobile{
+          font-size: 40px;
+          margin:0;
+          height: 75px;
+        }
       }
       h3 {
         font-size: 30px;
 
         @include mobile{
           font-size: 20px;
+          margin:0;
+          height: 40px;
+
         }
 
         span {
