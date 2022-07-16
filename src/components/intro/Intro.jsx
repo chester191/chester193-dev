@@ -14,9 +14,7 @@ export default function Intro() {
       strings: ["Angular", "Nodejs", "Clojure","python"],
     });
   }, []);
-  const fontStyle = {
-    fontSize:"30px"
-  };
+
   return (
 
       <div className="intro" id="intro">
@@ -34,7 +32,7 @@ export default function Intro() {
                 Fullstack developer <span ref={textRef}></span>
               </h3>
               <br />
-              <p style={fontStyle}>
+              <p>
                 I'm a self-taught Full stack web developer <br/>
                 I've been working for 1 year and have experience in database<br/>
                 management(postgresql, mysql, firestore) <br/>

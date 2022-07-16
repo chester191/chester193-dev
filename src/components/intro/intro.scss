@@ -2,6 +2,18 @@
 
 // .bgded{background-position:top center; background-repeat:no-repeat; background-size:cover;}
 // .overlay{position:absolute;top:0; z-index:1;background-image:url('../../../public/assets/background.png');}
+p {
+  font-size: 25px;
+  // height: 100px;
+  // margin-left: 50px  ;
+ }
+@media only screen and (max-width: 750px) {
+  p {
+    font-size: 18px;
+    text-align: "center";  
+  }
+}
+
 .intro {
   // background-image:url('../../../public/assets/background.png');
   background-color: white;
@@ -55,7 +67,7 @@
         padding-left: 0;
         align-items: center;
       }
-
+     
       h1 {
         font-size: 60px;
         margin: 10px 0;
