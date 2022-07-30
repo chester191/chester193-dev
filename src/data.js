@@ -34,6 +34,12 @@ export const featuredPortfolio = [
     tooltip:"Web application for a group of universities in DRC",
     img: "/assets/Ecolinked-screenshot.png"
   },
+  {
+    id: 7,
+    title: "Stub-Africa",
+    tooltip: "Accounting Platform for small and growing businesses",
+    img:"assets/stub.png"
+  }
 ];
   
   export const otherPortfolio = [
@@ -243,5 +249,15 @@ export const featuredPortfolio = [
       desc:
         "I have almost 2 years of experience in clojure. My first professional web server was written in Clojure at the beginning of 2021",
       list:"reitit, konserve, chesire\n"
+    },
+    {
+      id: 6,
+      name: "vue",
+      title: "vue",
+      img: "assets/skill_set_pictures/vue.svg.png",
+      icon: "assets/linkedin.png",
+      desc:
+        "I have copmleted the frontendmasters course in vue but only have 1 active project (stub.africa)",
+      list:"Axios, Firebase"
     }
   ];
