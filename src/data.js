@@ -2,12 +2,14 @@ export const featuredPortfolio = [
   {
     id: 1,
     title: "EeziHealth",
+    url:"https://digitaldistrict.co.za/eezihealth-live/",
     tooltip:"web application (POS, \nstock management etc) for pharmacy -- Eezihealth",
     img: "/assets/EeziHealth-screenshot.png"
   },
   {
     id: 2,
     title: "find-me.africa",
+    url: "https://dev-env.find-me.africa/",
     tooltip: "job hunting and recruitment website based in South Africa",
     img: "/assets/find-me.africa-screenshot.png"
   },
@@ -19,24 +21,28 @@ export const featuredPortfolio = [
   {
     id: 4,
     title: "Alusa-marketing",
+    url:"https://www.alusamarketing.co.za/",
     tooltip: "web application for telemarking company -- Alusa Marketing",
     img: "/assets/Alusa-marketing-screenshot.png"
   },
   {
     id: 5,
     title: "AtRecruit",
+    url:"https://atrecruit.co.za/",
     tooltip: "web application for job retraining through nelson mandela bay university",
     img: "/assets/AtRecruit-screenshot.png",
   },
   {
     id: 6,
     title: "Ecolinked",
+    url: "https://digitaldistrict.co.za/ecolinked/",
     tooltip:"Web application for a group of universities in DRC",
     img: "/assets/Ecolinked-screenshot.png"
   },
   {
     id: 7,
     title: "Stub-Africa",
+    url:"https://stub.africa/",
     tooltip: "Accounting Platform for small and growing businesses",
     img:"assets/stub.png"
   }

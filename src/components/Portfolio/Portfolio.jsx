@@ -81,12 +81,9 @@ export default function Portfolio() {
               src={d.img}
               alt=""
             />
-            <h3>{d.title}</h3>
+            <h3><a target="blank" href={d.url}>{d.title}</a></h3>
             <h4>{d.tooltip}</h4>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+
           </div>
         ))}
         
