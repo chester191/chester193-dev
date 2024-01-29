@@ -34,7 +34,7 @@ export default function Intro() {
               <br />
               <p>
                 I'm a self-taught Full stack web developer <br/>
-                I've been working for 1 year and have experience in database<br/>
+                I've been working for 2 years and have experience in database<br/>
                 management(postgresql, mysql, firestore) <br/>
                 front-end development(react,re-frame,Angular)<br/>
                 and backend development(clojure,nodejs,php,java)<br/>
